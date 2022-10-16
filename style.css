@@ -893,21 +893,13 @@ p.mg-md.text-center.white{
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+   
 }
 
 @media (max-width: 767px) {
