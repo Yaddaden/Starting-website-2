@@ -770,8 +770,11 @@ p.mg-md.text-center.white{
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #0000008c;
     padding: 40px 40px 40px 40px;
+}
+.black-background:hover{
+    background-color: black;
 }
 
 .bold-link {
