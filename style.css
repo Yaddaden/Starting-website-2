@@ -651,7 +651,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 600;
+    font-weight: 400;
     color: #121010!important;
 }
 
@@ -838,11 +838,11 @@ p.mg-md.text-center.white{
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
-    
+    background-position: center;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation.webp");  
 }
 
 
