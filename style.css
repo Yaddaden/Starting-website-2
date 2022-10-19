@@ -306,6 +306,10 @@ a:hover {
     margin: 0 5px 0 0;
     display: inline;
 }
+.navbar-brand:focus{
+    border: 2px solid;
+}
+
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
@@ -335,6 +339,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    border-bottom: 1px solid;
 }
 
 .navbar-toggle {
@@ -701,6 +706,9 @@ p {
     font-weight: 700;
 }
 
+a.btn.btn-atomic-tangerine.btn-clean.btn-rd.btn-lg.cta-hero:focus {
+    border: 5px solid black;
+}
 .social {
     margin: auto;
 }
