@@ -193,10 +193,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
+
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
