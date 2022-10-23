@@ -304,7 +304,7 @@ a:hover {
     display: inline;
 }
 .navbar-brand:focus{
-    border: 2px solid;
+    border: 3px solid orangered;
 }
 
 
@@ -336,7 +336,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid orangered;
 }
 
 .navbar-toggle {
@@ -704,7 +704,10 @@ p {
 }
 
 a.btn.btn-atomic-tangerine.btn-clean.btn-rd.btn-lg.cta-hero:focus {
-    border: 5px solid black;
+    border: 3px solid rgb(243, 238, 238);
+}
+.image-js:focus{
+    border: 3px solid orangered;
 }
 .social {
     margin: auto;
@@ -760,9 +763,6 @@ h4 {
 p.mg-md.text-center.white{
     font-size: 25px;
     font-weight: 500;
-}
-.portfolio-thumb {
-    margin-bottom: 24px;
 }
 
 .portfolio-row {
